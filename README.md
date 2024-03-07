@@ -1,3 +1,3 @@
-# Responsive Redesign Hand In
+# Responsive Redesign Hand-In
 
-Hand in website displaying design cycle for Responsive Redesign assigment.
+Hand-in website showing design processs for Responsive Redesign assignment.
