@@ -1,0 +1,95 @@
+#website {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  background-color: #fff;
+}
+
+.image-container {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.image-container img {
+  width: 33%;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.hor-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  color: #4a5759;
+  font-family: "Archivo", sans-serif;
+}
+
+h1 {
+  margin-bottom: 0px;
+}
+
+ul {
+  margin-top: 0px;
+  margin-right: 20px;
+}
+
+p,
+li {
+  font-weight: 400;
+  color: #5d5d5d;
+  font-family: "Roboto", sans-serif;
+}
+
+#wave-img {
+  width: 30%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.half-width {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+#accessibility p {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0px;
+}
+
+#sketching h3 {
+  margin-top: 0px;
+}
+
+#speed-sketch {
+  width: 65%;
+}
+
+#final-sketch {
+  width: 35%;
+}
+
+#speed-sketch img {
+  width: 96%;
+}
+
+#final-sketch img {
+  width: 100%;
+}
+
+#style-guide img {
+  width: 70%;
+}
+
+#figma img {
+  width: 98%;
+  height: fit-content;
+  border: 1px solid;
+}

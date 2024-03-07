@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML/CSS Studio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!--Importing fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="website">
+    <div>
+      <h1>Responsive Redesign Hand-In</h1>
+    </div>
+    <div>
+      <h2>Overview</h2>
+      <p>
+        The goal of this project was to redesign an existing website to make it
+        more usable, accessible and responsive across various screen sizes
+        (mobile, tablet and computer). I engaged in the design process, from
+        sketching to hi-fi mockups, and then used HTML and CSS to code the
+        interface!
+      </p>
+    </div>
+    <div><hr /></div>
+    <div>
+      <h2>Part 1: Identifying Usability Problems</h2>
+      <h3>Picking a Webpage</h3>
+      <p>
+        This website provides people with information about Columbia Road in
+        London, which is often bustling on Sundays with a flower market and many
+        local shops. I chose the Columbia Road website because I feel that the
+        existing interface lacks visual hierarchy and is not intuitive to use,
+        which is unfortunate given the vibrant energy in this part of London.
+        Here is the
+        <a href="https://columbiaroad.info/">link</a> to the website, and below
+        are images of the homepage:
+      </p>
+      <div class="image-container hor-section">
+        <img alt="Website home page image 1" src="./assets/CR-home1.png" />
+        <img alt="Website home page image 2" src="./assets/CR-home2.png" />
+        <img alt="Website home page image 3" src="./assets/CR-home3.png" />
+      </div>
+      <div class="image-container hor-section">
+        <img alt="Website home page image 4" src="./assets/CR-home4.png" />
+        <img alt="Website home page image 5" src="./assets/CR-home5.png" />
+        <img alt="Website home page image 6" src="./assets/CR-home6.png" />
+      </div>
+      <div class="hor-section">
+        <div class="half-width">
+          <h3>Usability Problems</h3>
+          <ul>
+            <li>
+              The navigation menu only appears at the beginning of the webpage,
+              yet the logo and timing remain at the top when scrolling. This
+              makes it tedious to navigate to another page since you must scroll
+              to the top of the website.
+            </li>
+            <li>
+              It is unclear what text is clickable since it looks visually the
+              same as the rest of the paragraphs.
+            </li>
+            <li>
+              There is limited distinctions between different sections,
+              particularly right after the initial image, since the font weights
+              and sizing are not consistent, making it difficult to find
+              information quickly.
+            </li>
+            <li>
+              When resizing the interface, one of the shops disappears, yet
+              there is a space in its place. This can be confusing to users as
+              to why there is a discrepancy between different screen sizes.
+            </li>
+          </ul>
+        </div>
+        <div id="accessibility" class="half-width">
+          <h3>Accessibility</h3>
+          <div class="hor-section">
+            <img
+              id="wave-img"
+              alt="Website home page image 4"
+              src="./assets/Original-Website-WAVE.png"
+            />
+            <p>
+              The problems detected by WebAIM Wave, an accessibility checker,
+              include a linked image missing alt text and empty as well as
+              redundant links. I agree with the issues detected. Some of the
+              links appear to be hidden behind graphic elements, which may
+              confuse screenreaders. In addition, when resizing the interface to
+              tablet or mobile, one of the shop images dissapears yet the link
+              remains. Overall, there appeared to be no issues with the color
+              contrast, which makes sense given that the black/dark gray text is
+              presented on a light background.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div><hr /></div>
+    <div>
+      <h2>Part 2: Visual Redesign</h2>
+      <div id="sketching" class="hor-section">
+        <div id="speed-sketch">
+          <h3>Speed Sketching</h3>
+          <p>
+            I drew nine sketches in nine minutes to brainstorm potential
+            designs!
+          </p>
+          <img alt="9 speed sketches" src="./assets/Speed-Sketches.jpg" />
+        </div>
+        <div id="final-sketch">
+          <h3>Final Sketch</h3>
+          <p>
+            Then, I combined my favorite elements of the speed sketches to make
+            a final sketch.
+          </p>
+          <img alt="Final sketch" src="./assets/Final-Sketch.jpg" />
+        </div>
+      </div>
+      <div>
+        <h3>Low-Fidelity Wireframing</h3>
+        <p>
+          The wireframes below are annotated to show how my redesign improves
+          the previously mentioned usability problems.
+        </p>
+        <div id="figma" class="hor-section">
+          <div>
+            <p>Computer:</p>
+            <img
+              alt="Low-fi wireframe for computer"
+              src="./assets/Low-Fi-Computer.jpg"
+            />
+          </div>
+          <div>
+            <p>Tablet:</p>
+            <img
+              alt="Low-fi wireframe for tablet"
+              src="./assets/Low-Fi-Tablet.jpg"
+            />
+          </div>
+          <div>
+            <p>Mobile:</p>
+            <img
+              alt="Low-fi wireframe for mobile"
+              src="./assets/Low-Fi-Mobile.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div id="style-guide">
+        <h3>Visual Design Style Guide</h3>
+        <p>
+          My style guide allowed me to visualize the colors, fonts, icons and
+          effects of the website.
+        </p>
+        <img alt="Style guide for website" src="./assets/Style-Guide.jpg" />
+      </div>
+      <div>
+        <h3>High-Fidelity Mockup</h3>
+        <p>
+          Using the style guide, I could bring the low-fidelity wireframe to
+          life as a high-fidelity mock up. During this process, I made revisions
+          to my sketches, low-fidelity wireframes and style guide when I wanted
+          to add or remove an element now that I was able to see the design with
+          styling.
+        </p>
+        <div id="figma" class="hor-section">
+          <div>
+            <p>Computer:</p>
+            <img
+              alt="High-fi mock up for computer"
+              src="./assets/Hi-Fi-Computer.jpg"
+            />
+          </div>
+          <div>
+            <p>Tablet:</p>
+            <img
+              alt="High-fi mock up for tablet"
+              src="./assets/Hi-Fi-Tablet.jpg"
+            />
+          </div>
+          <div>
+            <p>Mobile:</p>
+            <img
+              alt="High-fi mock up for mobile"
+              src="./assets/Hi-Fi-Mobile.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div><hr /></div>
+    <div>
+      <h2>Part 3: Responsive Redesign</h2>
+      <p>
+        You can visit my redesigned website
+        <a href="https://rdbrooks.github.io/columbia-road-web-redesign/">here</a
+        >! This project taught me a lot about the design process, and I hope to
+        continue using these steps when creating websites in the future.
+      </p>
+    </div>
+  </body>
+</html>
