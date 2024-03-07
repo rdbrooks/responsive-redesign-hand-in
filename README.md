@@ -1,1 +1,0 @@
-# responsive-redesign-hand-in
